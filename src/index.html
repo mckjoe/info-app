@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="weather-interface.js"></script>
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Info Check</h1>
+      <hr>
+      <div class="navbar">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="features">
+        <div id="weather-div" class="service">
+          <img src="https://physicsworld.com/wp-content/uploads/2015/06/PW-2015-06-10-Johnston-thermometer.jpg" alt="thermometer">
+          <p>Check the Weather</p>
+        </div>
+
+        <div id="time-div" class="service">
+          <img src="https://www.ablogtowatch.com/wp-content/uploads/2018/03/Rolex-GMT-Master-II-Root-Beer-Rootbeer-Rolesor-126711CHNR-BaselWorld-2018-aBlogtoWatch-14.jpeg" alt="watch">
+          <p>Check the Time</p>
+        </div>
+
+        <div id="other-div" class="service">
+          <img src="https://physicsworld.com/wp-content/uploads/2015/06/PW-2015-06-10-Johnston-thermometer.jpg" alt="thermometer">
+          <p>Check the Weather</p>
+        </div>
+      </div>
+
+      <div class="weather">
+        <label for="location">Enter a city</label>
+        <input id="location" type="text" placeholder="eg Portland">
+        <button class="city-button" id="weatherLocation">Get Current Humidity!</button>
+        <div class="errors"></div>
+        <div class="showHumidity"></div>
+        <div class="showTemp"></div>
+      </div>
+
+      <div class="time-display">
+        
+      </div>
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </body>
+</html>
